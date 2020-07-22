@@ -1,10 +1,8 @@
-install.packages("devtools")
-devtools::install_github("BillPetti/baseballr")
+library(devtools)
 library(baseballr)
 library(ggplot2)
 library(data.table)
 library(dplyr)
-install.packages("shiny")
 library(shiny)
 
 first_q <- fread("first_q.csv")
